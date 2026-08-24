@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>产品支持 · 啾啾</title>
+  <style>
+    :root { color-scheme: light dark; --ink: #1c2422; --muted: #5a6662; --line: #d8ddd9; --bg: #f7f5ef; --card: #fff; --accent: #c9a227; }
+    @media (prefers-color-scheme: dark) {
+      :root { --ink: #f2f0ea; --muted: #a8b0ac; --line: #333a37; --bg: #121614; --card: #1a201d; --accent: #e0bc4a; }
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; background: var(--bg); color: var(--ink); line-height: 1.65; }
+    .wrap { max-width: 720px; margin: 0 auto; padding: 28px 20px 64px; }
+    header { margin-bottom: 28px; }
+    .lang { font-size: 14px; margin-bottom: 12px; }
+    .lang a { color: var(--accent); }
+    h1 { font-size: 1.75rem; margin: 0 0 8px; }
+    .meta { color: var(--muted); font-size: 14px; }
+    section { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 20px 22px; margin-bottom: 14px; }
+    h2 { font-size: 1.1rem; margin: 0 0 10px; }
+    h3 { font-size: 15px; margin: 16px 0 6px; }
+    h3:first-child { margin-top: 0; }
+    p, li { font-size: 15px; }
+    p { margin: 0 0 10px; }
+    p:last-child, ul:last-child { margin-bottom: 0; }
+    ul { margin: 0; padding-left: 1.2em; }
+    li { margin-bottom: 6px; }
+    a { color: var(--accent); }
+    .faq dt { font-weight: 600; margin: 14px 0 4px; }
+    .faq dt:first-child { margin-top: 0; }
+    .faq dd { margin: 0 0 4px; color: var(--ink); }
+    footer { margin-top: 24px; font-size: 13px; color: var(--muted); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <p class="lang"><a href="support-en.html">English</a> · 中文</p>
+      <h1>产品支持</h1>
+      <p class="meta">啾啾（ChirpAudio）· 开发者 Billy Chen</p>
+    </header>
+
+    <section>
+      <h2>关于应用</h2>
+      <p>啾啾是一款<strong>本地音乐与有声书</strong>播放器：将手机里的音频导入 App 沙盒后播放，支持歌单、喜欢、均衡器、同步歌词与后台/锁屏控制。不依赖在线曲库账号。</p>
+    </section>
+
+    <section>
+      <h2>常见问题</h2>
+      <dl class="faq">
+        <dt>如何添加歌曲？</dt>
+        <dd>在空状态或曲库中选择「从文件选择」或「从媒体库添加」。文件选择支持多选与文件夹；导入后歌曲保存在本 App 内。</dd>
+
+        <dt>为什么不能自动扫描整台手机？</dt>
+        <dd>受 iOS 权限限制，应用无法静默扫描全部文件。需要您主动授权并选择文件、文件夹，或从本机媒体库导入已下载曲目。</dd>
+
+        <dt>APE / WMA / OGG 选不中怎么办？</dt>
+        <dd>请使用应用内的文件选择器添加，或直接选择包含这些文件的文件夹。部分系统界面可能不把此类格式显示为「音乐」，但应用支持导入后播放。</dd>
+
+        <dt>媒体库里很多歌导不进来？</dt>
+        <dd>仅支持已下载到本机的曲目。Apple Music 云端曲目、受 DRM 保护或无法取得本地文件路径的内容会被跳过。</dd>
+
+        <dt>歌词如何加载？</dt>
+        <dd>请导入与音频同名的 .lrc / .txt（可与歌曲一起选中，或单独导入）。若音频内已含带时间轴的歌词元数据，导入后也会自动识别。全屏跟唱需同步歌词；导入与全屏相互独立。</dd>
+
+        <dt>后台播放没声音或锁屏不能控制？</dt>
+        <dd>请确认未开启静音开关、系统允许后台音频，并在控制中心查看「正在播放」。若刚操作过文件选择等系统界面，可稍等片刻或切换一首歌再试。</dd>
+
+        <dt>支持哪些格式？</dt>
+        <dd>常见格式包括 MP3、M4A、M4B、AAC、FLAC、WAV、OGG、WMA、APE 等。具体以应用内提示为准。</dd>
+      </dl>
+    </section>
+
+    <section>
+      <h2>联系支持</h2>
+      <p>若问题仍未解决，请来信：</p>
+      <ul>
+        <li>邮箱：<a href="mailto:baikthh520@yeah.net">baikthh520@yeah.net</a></li>
+        <li>开发者：Billy Chen</li>
+      </ul>
+      <p>为加快处理，请尽量附上：</p>
+      <ul>
+        <li>iOS 系统版本</li>
+        <li>啾啾 App 版本号</li>
+        <li>问题现象与复现步骤（例如：导入 APE、加载歌词、后台播放）</li>
+        <li>如方便，可说明机型与是否使用英文界面</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>隐私</h2>
+      <p>我们如何处理数据，请参阅 <a href="privacy-zh.html">隐私政策</a>。</p>
+    </section>
+
+    <footer>
+      © 2026 Billy Chen · 啾啾 / ChirpAudio
+    </footer>
+  </div>
+</body>
+</html>
